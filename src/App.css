@@ -1,0 +1,66 @@
+.entry{
+  text-align: center;
+  color:#eaeaea;
+  font-size: 32px;
+}
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding:0 30px;
+  background-color: #220545;
+  height:100vh;
+}
+.container{
+  max-width: 600px;
+  min-height:250px;
+  background: #ffffff;
+  border-radius: 40px;
+  margin-top: 100px;
+  padding: 30px 60px;
+}
+.container ul{
+  margin-top: 20px;
+  margin-left: -40px;
+}
+.container ul li{
+  text-decoration: none;
+  list-style: none;
+  color:#2d2642;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.container button{
+  padding: 10px 42px;
+  border-radius: 9px;
+  font-size: 20px;
+  color:white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #90EE90;
+  font-style: normal;
+}
+.result h3{
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+.result p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.container ul .selected-answer{
+  background: #90EE90;
+  border: 3px solid #90EE90;
+}
+.result p span{
+  font-size: 16px;
+  color:#800080;
+}
